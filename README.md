@@ -17,6 +17,20 @@ Application build temperature reports based on IOT data files, it support two mo
    -d, --sensor-data-file <sensor-data-file>
                             Absolute path to sensor data file.
 
+   -t, --target-directory <target-directory>
+                            Absolute path to directory where to save reports.
+
+   -n, --num-of-rooms <num-of-rooms>
+                            Number of rooms to track.
+
+   -f, --from-date <from-date>
+                            Define lower date boundary for report generation.
+ Date pattern: yyyy-MM-dd
+
+   -u, --until-date <until-date>
+                            Define upper date boundary for report generation.
+ Date pattern: yyyy-MM-dd
+
  Command: reprocess [options]
  Reprocess 15 min report and produce 1 hour report file
    -r, --sensor-report-file <sensor-report-file>
@@ -24,9 +38,6 @@ Application build temperature reports based on IOT data files, it support two mo
 
    -t, --target-directory <target-directory>
                             Absolute path to directory where to save reports.
-
-
-
 
    -n, --num-of-rooms <num-of-rooms>
                             Number of rooms to track.
